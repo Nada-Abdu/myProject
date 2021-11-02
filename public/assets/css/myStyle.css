@@ -1,0 +1,155 @@
+.sidebar-icon{
+  margin-left: 10px;
+}
+/* #31626A */
+.cblue{
+  color:#3A757E !important; 
+}
+
+.cgray{
+  color:	#D3D3D3;
+}
+
+.textR{
+  text-align: right !important;
+  justify-content: right !important;
+}
+
+.logo-login {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    border-right: 1px solid #A9A9A9;
+    background-color: #3A757E	;
+    color: white;
+    font-size: 23px;
+}
+
+.side-bar-icon{
+color: #3A757E; 
+}
+
+.btn-blue {
+  color: #fff;
+  background-color: #3A757E; 
+  border-color: #3A757E;
+}
+
+.btn-blue:hover{
+  color: #fff;
+  background-color: #386369; 
+  border-color: #386369;
+}
+
+div.card{
+  text-align: right !important;
+}
+
+th{
+  color:#3A757E ;
+}
+th:hover{
+  color:#3A757E ;
+}
+
+span.card-title{
+  font-size: 20px;
+}
+
+.title-icon{
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+
+
+#myInput {
+  text-align: right; 
+  background: url('../img/ser.png')  left    no-repeat !important; 
+  left: 0.7em;;
+  }
+  
+  .d-none{
+    display: block !important;
+  }
+
+  .subtitle-icon{
+  
+    margin-left: 10px;
+    margin-right: 2px !important;
+    margin-right: -5px;
+    font-size: 17px !important;
+  } 
+
+  .subcategory-icon{
+  
+    margin-left: 10px;
+    margin-right: 2px !important;
+    margin-right: -5px;
+    font-size: 17px !important;
+  } 
+
+
+  .subtitle{
+    font-size: 18px;
+    color: #3A757E ;
+    font-weight: 400 !important;
+  }
+
+  .subcategory{
+    font-size: 17px;
+    color: #3A757E ;
+  }
+
+  .content-subtitle{
+    font-size: 18px;
+    color: #000;
+    font-weight: 0 !important;
+  }
+  .content-subcategory{
+    font-size: 17px;
+    color: #000;
+  }
+
+
+  .last-row{
+  background-color: #ececec;
+  }
+  .last-cell{
+    text-align: center;
+  }
+
+  .table-icon{
+    margin-left: 10px;
+    font-size: 20px;
+  }
+
+  .table-icon2{
+    margin-left: 10px;
+    font-size: 20px;
+  }
+  .note{
+    margin-right: 2px;
+    font-size: 12px;
+    color: #9e9e9e;
+  }
+
+  .display{
+    display: none;
+  }
+
+
+  @media (max-width: 890px) {
+    .table-icon {
+      display: block !important;
+      text-align: center !important;
+    }
+  }
+
+  @media (max-width: 680px) {
+    .table-icon2 {
+      display: block !important;
+      text-align: center !important;
+    }
+  }

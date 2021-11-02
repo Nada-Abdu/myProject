@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>مشروعي</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="assets/img/logo1.png" rel="icon" />
+    <link href="assets/img/logo1.png" rel="apple-touch-icon" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet"  />
+
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"  rel="stylesheet" />
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet"/>
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" /> 
+    <link href="assets/css/myStyle.css" rel="stylesheet" />
+
+  </head>
+
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="header fixed-top d-flex align-items-center">
+      <nav class="header-nav ms-auto">
+        <ul class="d-flex align-items-center">
+          <i class="bi bi-list toggle-sidebar-btn" ></i>
+          <li class="nav-item pe-3">
+            <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+              <span class="d-none d-md-block pe-3">ندى</span>
+              <img src="assets/img/user.png" alt="Profile" class="rounded-circle" /> </a >
+          </li>
+          <a href="#" class="logo d-flex align-items-center">
+            <span class="d-none d-lg-block ">مشروعــــي</span>
+            <img style="margin-left: 15px;" src="assets/img/logo2.png" alt="" />
+            
+          </a>
+          
+        </ul>
+      </nav>
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= Sidebar ======= -->
+    <aside id="sidebar" class="sidebar" >
+      <ul class="sidebar-nav" id="sidebar-nav" >
+        <li class="nav-item">
+          <a class="nav-link "  href="my_project.html">
+            <span >مشاريعي </span>
+            <i class=" side-bar-icon bi bi-columns-gap sidebar-icon"  ></i>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link collapsed"  href="add_invoice.html">
+            <span >إضافة فاتورة </span>
+            <i class=" side-bar-icon bi bi-plus-lg sidebar-icon"  ></i>
+          </a>
+        </li>
+    
+        <li class="nav-item">
+          <a class="nav-link collapsed"  href="my_project.html">
+            <span ">عودة </span>
+            <i class="bi bi-chevron-right sidebar-icon" ></i>
+          </a>
+        </li>
+   
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="login.html">
+            <span>خروج</span>
+            <i class="bi bi-box-arrow-right sidebar-icon"></i>
+          </a>
+        </li>
+      </ul>
+    </aside>
+    <!-- End Sidebar-->
+
+    
+    <main id="main" class="main">
+      <div class="card mt-2 pb-4">
+        <div class="card-body mt-5">
+          <span class="card-title "> تفاصيل الحساب الفرعي </span>
+          <i class=" side-bar-icon bi bi-layers title-icon "  style="color:#3A757E"></i>
+
+          <div class="mt-4">
+            <span class="subtitle"> اسم المشروع:  <span class="content-subtitle "> بناء مسجد </span> </span>
+            &nbsp;    &nbsp;    &nbsp;    &nbsp;    &nbsp;    
+            <i class=" side-bar-icon bi bi-cash subtitle-icon  "  style="color:#3A757E"></i>
+            <span class="subtitle"> الميزانية: <span class="content-subtitle "> 50,000 </span> </span>
+            <i class=" side-bar-icon bi bi-view-stacked subtitle-icon  "  style="color:#3A757E"></i>
+          </div>
+
+          <div class="mt-5">
+            <span class="subcategory"> اسم الحساب الفرعي:  <span class="content-subcategory "> حديد </span> </span>
+            <i class=" side-bar-icon bi bi-dot subcategory-icon  "  style="color:#3A757E"></i>
+          </div>
+
+          <!-- Table with hoverable rows --> 
+          <table class="table  table-bordered mt-3 " id="myTable">
+            <thead>
+              <tr>
+                <th scope="col" style="width: 25%;">كشف الحساب</th>
+                <th scope="col" style="width: 10%;">التكلفة</th>
+                <th scope="col" style="width: 35%;">الوصف</th>
+                <th scope="col" style="width: 10%;">رقم المرجع</th>
+                <th scope="col" style="width: 20%;">التاريخ</th>
+              </tr>
+            </thead>
+            <tbody>
+  
+              <tr>
+                <td>تحميل الفاتورة  <a href="register.html"><i class=" side-bar-icon bi bi-download table-icon2 "  style="color:#3A757E"></i></a> </td>
+                <td>3000</td>
+                <td>شراء 3 طن من الحديد</td>
+                <td >1</td>
+                <td>2066-05-66</td>
+              </tr>
+          
+              <tr onclick="window.location='subcategory-details.html';">
+                <td>تحميل الفاتورة  <a href="register.html"><i class=" side-bar-icon bi bi-download table-icon2 "  style="color:#3A757E"></i></a> </td>
+                <td>1000</td>
+                <td>شراء 1 طن من الحديد</td>
+                <td>2</td>
+                <td>2066-05-66</td>
+              </tr>
+             
+              <tr>
+                <td>تحميل الفاتورة  <a href="register.html"><i class=" side-bar-icon bi bi-download table-icon2 "  style="color:#3A757E"></i></a> </td>
+                <td>2000</td>
+                <td>شراء 2 طن من الحديد</td>
+                <td >3</td>
+                <td>2066-05-66</td>
+              </tr>
+
+              <tr class="last-row">
+                <td colspan="4" class="last-cell" >6,000</td>
+                <th scope="row">مجموع تكلفة الحديد</th>
+              </tr>
+              
+            </tbody>
+          </table>
+          <!-- End Table with hoverable rows -->
+          <div class="pt-3">
+            تحميل كشف الحساب الفرعي   <a href="register.html"><i class=" side-bar-icon bi bi-download title-icon "  style="color:#3A757E"></i></a>
+           </div>
+        </div>
+       
+      </div>
+    </main>
+    <!-- End #main -->
+
+     <!-- back-to-top -->
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/searchInMyProject.js"></script>
+
+   
+  </body>
+</html>

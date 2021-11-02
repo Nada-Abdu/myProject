@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>مشروعي</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="assets/img/logo1.png" rel="icon" />
+    <link href="assets/img/logo1.png" rel="apple-touch-icon" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet"  />
+
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"  rel="stylesheet" />
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet"/>
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" /> 
+    <link href="assets/css/myStyle.css" rel="stylesheet" />
+
+  </head>
+
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="header fixed-top d-flex align-items-center">
+      <nav class="header-nav ms-auto">
+        <ul class="d-flex align-items-center">
+          <i class="bi bi-list toggle-sidebar-btn" ></i>
+          <li class="nav-item pe-3">
+            <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+              <span class="d-none d-md-block pe-3">ندى</span>
+              <img src="assets/img/user.png" alt="Profile" class="rounded-circle" /> </a >
+          </li>
+          <a href="#" class="logo d-flex align-items-center">
+            <span class="d-none d-lg-block ">مشروعــــي</span>
+            <img style="margin-left: 15px;" src="assets/img/logo2.png" alt="" />
+            
+          </a>
+          
+        </ul>
+      </nav>
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= Sidebar ======= -->
+    <aside id="sidebar" class="sidebar" >
+      <ul class="sidebar-nav" id="sidebar-nav" >
+        <li class="nav-item">
+          <a class="nav-link "  href="my_project.html">
+            <span >مشاريعي </span>
+            <i class=" side-bar-icon bi bi-columns-gap sidebar-icon"  ></i>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link collapsed"  href="add_project.html">
+            <span >إضافة مشروع </span>
+            <i class=" side-bar-icon bi bi-plus-lg sidebar-icon"  ></i>
+          </a>
+        </li>
+    
+        <li class="nav-item">
+          <a class="nav-link collapsed"  href="login.html">
+            <span ">عودة </span>
+            <i class="bi bi-chevron-right sidebar-icon" ></i>
+          </a>
+        </li>
+   
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="login.html">
+            <span>خروج</span>
+            <i class="bi bi-box-arrow-right sidebar-icon"></i>
+          </a>
+        </li>
+      </ul>
+    </aside>
+    <!-- End Sidebar-->
+
+    
+    <main id="main" class="main">
+      <div class="card mt-2 pb-4">
+        <div class="card-body mt-5">
+          <span class="card-title ">مشــــاريعي</span>
+          <i class=" side-bar-icon bi bi-columns-gap title-icon "  style="color:#3A757E"></i>
+
+          <div class="row mt-5">
+            <div class="col">
+              <input type="text" class="form-control search" id="myInput" onkeyup="myFunction()" placeholder="ابحث عن مشروعك عن طريق الاسم" >
+            </div>
+          </div>
+
+          <!-- Table with hoverable rows --> 
+          <table class="table table-hover table-bordered " id="myTable">
+            <thead>
+              <tr>
+                <th scope="col" style="width: 15%;">المتبقي</th>
+                <th scope="col" style="width: 15%;">الميزانية</th>
+                <th scope="col" style="width: 15%;">تاريخ الإنشاء</th>
+                <th scope="col" style="width: 45%;">اسم المشروع</th>
+                <th scope="col" style="width: 10%;">رقم المشروع</th>
+              </tr>
+            </thead>
+            <tbody>
+  
+              <tr>
+                <td>20,000</td>
+                <td>50,000</td>
+                <td>2022-05-55</td>
+                <td>بناء مجمع</td>
+                <th scope="row">1</th>
+              </tr>
+          
+              <tr onclick="window.location='project_details.html';">
+                <td>10,000</td>
+                <td>50,000</td>
+                <td>2011-05-11</td>
+                <td>بناء مسجد</td>
+                <th scope="row">2</th>
+              </tr>
+              
+              <tr>
+                <td>30,000</td>
+                <td>50,000</td>
+                <td>2066-05-66</td>
+                <td>بناء مدرسة</td>
+                <th scope="row">3</th>
+              </tr>
+              
+            </tbody>
+          </table>
+          <!-- End Table with hoverable rows -->
+        </div>
+      </div>
+    </main>
+    <!-- End #main -->
+
+     <!-- back-to-top -->
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/searchInMyProject.js"></script>
+
+    <script>
+      jQuery(document).ready(function($) {
+    $(".clickable-row").click(function() {
+        window.location = $(this).data("login.html");
+    });
+});
+    </script>
+  </body>
+</html>

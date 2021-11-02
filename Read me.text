@@ -1,0 +1,19 @@
+
+1- gmail account:
+Email: my.projects.2022@gmail.com
+password: mp11223344
+
+1- MangoDB account:
+Email: my.projects.2022@gmail.com
+password: mp11223344
+
+3-user database
+user:  my_projects
+password: mp11223344
+
+4-IP Access List Entry
+Access List Entry: 5.108.194.192
+Comment:welcome to my projects
+
+conection by 
+mongodb+srv://my_projects:<password>@cluster0.xevc5.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
